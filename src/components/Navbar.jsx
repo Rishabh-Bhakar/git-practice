@@ -9,13 +9,14 @@ const navLinkStyles = ({ isActive }) => ({
 const Navbar = () => {
   return (
     <>
-    
+    <div className='flex flex-col  items-center'>
     <nav style={{ marginBottom: '20px' }}>
       <NavLink to={"/"}style={navLinkStyles} >Home</NavLink>{" | "}
       <NavLink to={"/about"}style={navLinkStyles} >About</NavLink>{" | "}
       <NavLink to={"/projects"}style={navLinkStyles}>Projects</NavLink>{" | "}
       <NavLink to={"/contact"}style={navLinkStyles}>Contact</NavLink>
     </nav>
+    </div>
     
     
     </>

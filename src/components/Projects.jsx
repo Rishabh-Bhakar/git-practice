@@ -10,9 +10,12 @@ const navLinkStyles = ({ isActive }) => ({
 function Projects(){
   return(
     <>
-    <h1>This is Projects Page!</h1>
+    <div className='flex flex-col justify-center items-center mt-4' >
+    <h1 className='mb-3'>This is Projects Page!</h1>
     <NavLink to={'/todo'} style={navLinkStyles}>Todo</NavLink>
+     </div>
     </>
+   
   )
 }
 export default Projects
